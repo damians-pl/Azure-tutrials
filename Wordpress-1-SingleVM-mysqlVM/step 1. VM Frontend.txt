@@ -1,0 +1,13 @@
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install -y apache2 php libapache2-mod-php php-mcrypt php-mysql mysql-client
+sudo apache2ctl configtest
+sudo service apache2 restart
+sudo chgrp -R www-data /var/www/html
+sudo find /var/www/html -type d -exec chmod g+rx {} +
+sudo find /var/www/html -type f -exec chmod g+r {} +
+sudo chown -R azureuser /var/www/html/ 
+sudo find /var/www/html -type d -exec chmod u+rwx {} +
+sudo find /var/www/html -type f -exec chmod u+rw {} +
+sudo find /var/www/html -type d -exec chmod g+s {} +
+echo "<?php phpinfo();" > /var/www/html/phpinfo.php

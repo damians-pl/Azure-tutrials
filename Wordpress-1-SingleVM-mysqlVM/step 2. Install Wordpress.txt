@@ -1,0 +1,7 @@
+wget https://pl.wordpress.org/wordpress-4.9.8-pl_PL.tar.gz
+tar -xvzf wordpress-4.9.8-pl_PL.tar.gz
+cd wordpress/
+cp -r * /var/www/html/
+cd /var/www/html/
+chmod -R 777 wp-content
+rm index.html
