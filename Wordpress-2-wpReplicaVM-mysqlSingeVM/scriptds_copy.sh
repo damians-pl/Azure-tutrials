@@ -2,7 +2,7 @@
 # A simple Azure Storage example script
 
 export AZURE_STORAGE_ACCOUNT="https://storageprojectwp.blob.core.windows.net/"
-export AZURE_STORAGE_ACCESS_KEY="WuOiRBM2lwVr07suTzIi15dWKoDcB9cElPoX77zy0ktPoJegoASHdDtsE7H5Eqp05jaVDlbyRzdmqe3gs78ypQ=="
+export AZURE_STORAGE_ACCESS_KEY="WuOiRBM2lwVr07suTzIi15dWKoDcB9cElPoX77zy0ktPoJegoAXXXXXXXXXXXXXXXRzdmqe3gs78ypQ=="
 
 
 
